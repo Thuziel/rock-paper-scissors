@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <header class="header">
-        <p id="winStreak">WIN STREAK: 999</p>
-        <p id="winPercentage">WIN PERCENTAGE: 50%</p>
-    </header>
+    <!--<header class="header">
+        <p id="winStreak">WIN STREAK: 0</p>
+        <p id="winPercentage">WIN PERCENTAGE: 0%</p>
+    </header>-->
     <main>
         <div id="options">
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <button id="1" onclick="clicked(this.id)">Rock</button>
+            <button id="2" onclick="clicked(this.id)">Paper</button>
+            <button id="3" onclick="clicked(this.id)">Scissors</button>
         </div>
         <div id="text">
             <p id="selection">Choose your weapon</p>
-            <p id="result">You lose!</p>
+            <p id="result"></p>
         </div>
     </main>
 </body>
