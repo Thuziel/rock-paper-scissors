@@ -109,11 +109,11 @@ function clicked(btnIDString) {
         }
     }
     
-    // //update win streak
-    // document.getElementById('winStreak').innerHTML = '';
-    // document.getElementById('winStreak').innerHTML = 'Win Streak: '+winStreak.toString();
+    //update win streak
+    document.getElementById('winStreak').innerHTML = '';
+    document.getElementById('winStreak').innerHTML = 'Win Streak: '+winStreak.toString();
 
-    // //update win percentage
-    // winPercentage = Math.floor((totalWins/amountOfTurns)*100);
-    // document.getElementById('winPercentage').innerHTML = 'Win Percentage: '+winPercentage.toString()+'%';
+    //update win percentage
+    winPercentage = Math.floor((totalWins/amountOfTurns)*100);
+    document.getElementById('winPercentage').innerHTML = 'Win Percentage: '+winPercentage.toString()+'%';
 }
