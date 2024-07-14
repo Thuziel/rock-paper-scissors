@@ -8,20 +8,19 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <!--<header class="header">
-        <p id="winStreak">WIN STREAK: 0</p>
-        <p id="winPercentage">WIN PERCENTAGE: 0%</p>
-    </header>-->
     <main>
-        <div id="options">
-            <button id="1" onclick="clicked(this.id)">Rock</button>
-            <button id="2" onclick="clicked(this.id)">Paper</button>
-            <button id="3" onclick="clicked(this.id)">Scissors</button>
-        </div>
-        <div id="text">
-            <p id="selection">Choose your weapon</p>
-            <p id="result"></p>
-        </div>
+        <section class="topbar">
+            <p>highest win streak: </p>
+            <p>current win steak: </p>
+        </section>
+        <section class="options">
+            <button class="option">Rock</button>
+            <button class="option">Paper</button>
+            <button class="option">Scissors</button>
+        </section>
+        <section class="playagain">
+            <button class="playagainBtn">Play Again?</button>
+        </section>
     </main>
 </body>
 </html>
